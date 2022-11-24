@@ -4,8 +4,7 @@
 config file :
 
 config.ini
-
-
+```
 [Bot]
 skillid=18
 playerhp=2439
@@ -28,3 +27,4 @@ dropitemfilter=47
 monsterblocklist=44,45,46,47,48,49,50
 delayattack=800
 failAttackCounterLimit=2
+```
