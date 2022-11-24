@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{4720bcb7-cf8d-48d1-beb3-9c6793b0d121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Vortex">
+      <UniqueIdentifier>{72195312-501d-4ac1-9f4a-61a26771b601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Inixsoft">
+      <UniqueIdentifier>{035008d9-0c17-408f-bcfd-3483a6f48298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Packets">
+      <UniqueIdentifier>{f3106a0f-2530-409b-b320-4d5b8e78e4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Bots">
+      <UniqueIdentifier>{73dce891-dd47-42a6-a3e5-8f099e49ddfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{d0922283-8546-4402-8d1b-80f48b24ff47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Exports.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="recv.cpp">
+      <Filter>Server\Inixsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="send.cpp">
+      <Filter>Server\Inixsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="SomeoneAttack.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="D1.cpp">
+      <Filter>Server\Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="DllFix.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="JobChange.cpp">
+      <Filter>Server\Bots</Filter>
+    </ClCompile>
+    <ClCompile Include="crecv.cpp">
+      <Filter>Server\Inixsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemSpawn.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="StatChange.cpp">
+      <Filter>Server\Packets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Exports.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="recv.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\source\repos\KalOnlineMainServerExtension\KalOnlineMainServerExtension\detours.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="version.def">
+      <Filter>Headerdateien</Filter>
+    </None>
+  </ItemGroup>
+</Project>

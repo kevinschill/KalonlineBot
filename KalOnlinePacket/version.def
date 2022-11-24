@@ -1,0 +1,17 @@
+EXPORTS
+
+GetFileVersionInfoA=__E__0__ @1
+GetFileVersionInfoByHandle=__E__1__ @2
+GetFileVersionInfoExW=__E__2__ @3
+GetFileVersionInfoSizeA=__E__3__ @4
+GetFileVersionInfoSizeExW=__E__4__ @5
+GetFileVersionInfoSizeW=__E__5__ @6
+GetFileVersionInfoW=__E__6__ @7
+VerFindFileA=__E__7__ @8
+VerFindFileW=__E__8__ @9
+VerInstallFileA=__E__9__ @10
+VerInstallFileW=__E__10__ @11
+VerLanguageNameA=__E__11__ @12
+VerLanguageNameW=__E__12__ @13
+VerQueryValueA=__E__13__ @14
+VerQueryValueW=__E__14__ @15
