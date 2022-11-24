@@ -1,7 +1,9 @@
 # KalonlineBot
 
+well it's a bunch of stuff in it, because i tested many things - you may have to clean it up a bit and updates Send & Recv Adress.
 
-config file :
+
+Here is the Config file you have to create in KalOnline Folder
 
 config.ini
 ```
